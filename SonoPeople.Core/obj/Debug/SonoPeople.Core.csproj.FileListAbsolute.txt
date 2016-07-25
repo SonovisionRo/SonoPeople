@@ -1,0 +1,4 @@
+D:\GitHubProject\SonoPeople\SonoPeople\SonoPeople.Core\bin\Debug\SonoPeople.Core.dll
+D:\GitHubProject\SonoPeople\SonoPeople\SonoPeople.Core\bin\Debug\SonoPeople.Core.pdb
+D:\GitHubProject\SonoPeople\SonoPeople\SonoPeople.Core\obj\Debug\SonoPeople.Core.dll
+D:\GitHubProject\SonoPeople\SonoPeople\SonoPeople.Core\obj\Debug\SonoPeople.Core.pdb
