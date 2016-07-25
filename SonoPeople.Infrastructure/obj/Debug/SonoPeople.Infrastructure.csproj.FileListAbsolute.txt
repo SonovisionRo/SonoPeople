@@ -3,3 +3,8 @@ D:\GitHubProject\SonoPeople\SonoPeople\SonoPeople.Infrastructure\bin\Debug\SonoP
 D:\GitHubProject\SonoPeople\SonoPeople\SonoPeople.Infrastructure\obj\Debug\SonoPeople.Infrastructure.csprojResolveAssemblyReference.cache
 D:\GitHubProject\SonoPeople\SonoPeople\SonoPeople.Infrastructure\obj\Debug\SonoPeople.Infrastructure.dll
 D:\GitHubProject\SonoPeople\SonoPeople\SonoPeople.Infrastructure\obj\Debug\SonoPeople.Infrastructure.pdb
+D:\GitHubProject\SonoPeople\SonoPeople.Infrastructure\bin\Debug\SonoPeople.Infrastructure.dll
+D:\GitHubProject\SonoPeople\SonoPeople.Infrastructure\bin\Debug\SonoPeople.Infrastructure.pdb
+D:\GitHubProject\SonoPeople\SonoPeople.Infrastructure\obj\Debug\SonoPeople.Infrastructure.csprojResolveAssemblyReference.cache
+D:\GitHubProject\SonoPeople\SonoPeople.Infrastructure\obj\Debug\SonoPeople.Infrastructure.dll
+D:\GitHubProject\SonoPeople\SonoPeople.Infrastructure\obj\Debug\SonoPeople.Infrastructure.pdb
