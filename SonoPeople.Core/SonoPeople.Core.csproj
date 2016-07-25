@@ -42,7 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Users\EmailValidSpecification.cs" />
     <Compile Include="Users\User.cs" />
+    <Compile Include="Users\UsersBusinessRules.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SonoPeople.Infrastructure\SonoPeople.Infrastructure.csproj">

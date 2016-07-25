@@ -8,7 +8,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SonoPeople.Tests</RootNamespace>
     <AssemblyName>SonoPeople.Tests</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -16,6 +16,7 @@
     <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
     <IsCodedUITest>False</IsCodedUITest>
     <TestProjectType>UnitTest</TestProjectType>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -45,16 +46,32 @@
     </When>
     <Otherwise>
       <ItemGroup>
-        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework">
+          <Private>False</Private>
+        </Reference>
       </ItemGroup>
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Core\Users\UsersTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="AppServices\" />
-    <Folder Include="Core\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SonoPeople.AppService\SonoPeople.AppService.csproj">
+      <Project>{1d957f69-a0a7-4b81-b11e-2babcacadd38}</Project>
+      <Name>SonoPeople.AppService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SonoPeople.Core\SonoPeople.Core.csproj">
+      <Project>{9e3387e8-ce05-46dd-ae18-32217522f774}</Project>
+      <Name>SonoPeople.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SonoPeople.Infrastructure\SonoPeople.Infrastructure.csproj">
+      <Project>{bbcac6db-722f-4c38-8055-8a9e3436a2b1}</Project>
+      <Name>SonoPeople.Infrastructure</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

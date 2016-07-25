@@ -15,7 +15,17 @@ namespace SonoPeople.Core.Users
         public DateTime CreatedOn { get; set; }        
         protected override void Validate()
         {
-           
+            if (string.IsNullOrEmpty(Email))
+            {                
+                AddBrokenRule(UsersBusinessRules.EmailRequired);
+            }
+            else
+            {
+                if (! new EmailValidSpecification().IsSatisfiedBy(Email))
+                {
+                    AddBrokenRule(UsersBusinessRules.EmailSonovisionDomain);
+                }
+            }
         }
     }
 }

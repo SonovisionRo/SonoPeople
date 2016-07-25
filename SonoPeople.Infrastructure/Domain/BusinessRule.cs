@@ -28,5 +28,10 @@ namespace SonoPeople.Infrastructure.Domain
             get { return _rule; }
             set { _rule = value; }
         }
+        public override bool Equals(object obj)
+        {
+            BusinessRule rule = obj as BusinessRule;
+            return this.Property == rule.Property && this.Rule == rule.Rule;
+        }
     }
 }
