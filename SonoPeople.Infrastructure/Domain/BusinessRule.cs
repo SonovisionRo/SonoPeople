@@ -33,5 +33,9 @@ namespace SonoPeople.Infrastructure.Domain
             BusinessRule rule = obj as BusinessRule;
             return this.Property == rule.Property && this.Rule == rule.Rule;
         }
+        public override int GetHashCode()
+        {
+            return Property.GetHashCode() ^ Rule.GetHashCode();
+        }
     }
 }
