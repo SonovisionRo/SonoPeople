@@ -15,7 +15,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SonoPeople</RootNamespace>
     <AssemblyName>SonoPeople</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -86,9 +86,9 @@
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
-    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Routing" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
@@ -319,6 +319,24 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SonoPeople.AppService\SonoPeople.AppService.csproj">
+      <Project>{1d957f69-a0a7-4b81-b11e-2babcacadd38}</Project>
+      <Name>SonoPeople.AppService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SonoPeople.Core\SonoPeople.Core.csproj">
+      <Project>{9e3387e8-ce05-46dd-ae18-32217522f774}</Project>
+      <Name>SonoPeople.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SonoPeople.DAL\SonoPeople.DAL.csproj">
+      <Project>{e103185c-b5f6-48bc-8281-195ccd4ce275}</Project>
+      <Name>SonoPeople.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SonoPeople.Infrastructure\SonoPeople.Infrastructure.csproj">
+      <Project>{bbcac6db-722f-4c38-8055-8a9e3436a2b1}</Project>
+      <Name>SonoPeople.Infrastructure</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

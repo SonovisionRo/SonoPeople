@@ -7,3 +7,12 @@ D:\GitHubProject\SonoPeople\SonoPeople\SonoPeople.AppService\bin\Debug\SonoPeopl
 D:\GitHubProject\SonoPeople\SonoPeople\SonoPeople.AppService\obj\Debug\SonoPeople.AppService.csprojResolveAssemblyReference.cache
 D:\GitHubProject\SonoPeople\SonoPeople\SonoPeople.AppService\obj\Debug\SonoPeople.AppService.dll
 D:\GitHubProject\SonoPeople\SonoPeople\SonoPeople.AppService\obj\Debug\SonoPeople.AppService.pdb
+D:\GitHubProject\SonoPeople\SonoPeople.AppService\bin\Debug\SonoPeople.AppService.dll
+D:\GitHubProject\SonoPeople\SonoPeople.AppService\bin\Debug\SonoPeople.AppService.pdb
+D:\GitHubProject\SonoPeople\SonoPeople.AppService\bin\Debug\SonoPeople.Core.dll
+D:\GitHubProject\SonoPeople\SonoPeople.AppService\bin\Debug\SonoPeople.DAL.dll
+D:\GitHubProject\SonoPeople\SonoPeople.AppService\bin\Debug\SonoPeople.Core.pdb
+D:\GitHubProject\SonoPeople\SonoPeople.AppService\bin\Debug\SonoPeople.DAL.pdb
+D:\GitHubProject\SonoPeople\SonoPeople.AppService\obj\Debug\SonoPeople.AppService.csprojResolveAssemblyReference.cache
+D:\GitHubProject\SonoPeople\SonoPeople.AppService\obj\Debug\SonoPeople.AppService.dll
+D:\GitHubProject\SonoPeople\SonoPeople.AppService\obj\Debug\SonoPeople.AppService.pdb

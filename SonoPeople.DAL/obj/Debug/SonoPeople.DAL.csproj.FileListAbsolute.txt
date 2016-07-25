@@ -5,3 +5,10 @@ D:\GitHubProject\SonoPeople\SonoPeople\SonoPeople.DAL\bin\Debug\SonoPeople.Core.
 D:\GitHubProject\SonoPeople\SonoPeople\SonoPeople.DAL\obj\Debug\SonoPeople.DAL.csprojResolveAssemblyReference.cache
 D:\GitHubProject\SonoPeople\SonoPeople\SonoPeople.DAL\obj\Debug\SonoPeople.DAL.dll
 D:\GitHubProject\SonoPeople\SonoPeople\SonoPeople.DAL\obj\Debug\SonoPeople.DAL.pdb
+D:\GitHubProject\SonoPeople\SonoPeople.DAL\bin\Debug\SonoPeople.DAL.dll
+D:\GitHubProject\SonoPeople\SonoPeople.DAL\bin\Debug\SonoPeople.DAL.pdb
+D:\GitHubProject\SonoPeople\SonoPeople.DAL\bin\Debug\SonoPeople.Core.dll
+D:\GitHubProject\SonoPeople\SonoPeople.DAL\bin\Debug\SonoPeople.Core.pdb
+D:\GitHubProject\SonoPeople\SonoPeople.DAL\obj\Debug\SonoPeople.DAL.csprojResolveAssemblyReference.cache
+D:\GitHubProject\SonoPeople\SonoPeople.DAL\obj\Debug\SonoPeople.DAL.dll
+D:\GitHubProject\SonoPeople\SonoPeople.DAL\obj\Debug\SonoPeople.DAL.pdb
