@@ -41,13 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SonoPeople.Core\SonoPeople.Core.csproj">
       <Project>{9e3387e8-ce05-46dd-ae18-32217522f774}</Project>
       <Name>SonoPeople.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SonoPeople.Infrastructure\SonoPeople.Infrastructure.csproj">
+      <Project>{BBCAC6DB-722F-4C38-8055-8A9E3436A2B1}</Project>
+      <Name>SonoPeople.Infrastructure</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
