@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="1f9f1e47-93e8-4cbd-a6dc-bfb5b0758268" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="da2db1c8-9c96-4e2c-aa7b-fd38d88b4b9c" name="Model">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="7422cc8a-229e-45c2-bb14-03bf678da57d" direction="Forward">
+          <layerMoniker Id="1d7f211c-59f0-470c-a510-ca0b132d12f1" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="28c58022-4c71-4b12-b3c7-766bee492d06" name="SonoPeople.Core">
+          <ArtifactNode Label="SonoPeople.Core" Category="CodeSchema_Project" Id="(Assembly=../SonoPeople.Core/SonoPeople.Core.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=SonoPeople.Core)" Label="SonoPeople.Core.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="e8698bc6-4b75-4c87-80cb-cf9bc8cc9015" name="Data Access Layer">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="730378df-eb72-49de-8205-33493c22f9bb" direction="Forward">
+          <layerMoniker Id="da2db1c8-9c96-4e2c-aa7b-fd38d88b4b9c" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="47435b48-6bf9-4148-8fde-b938d4cf5f63" direction="Forward">
+          <layerMoniker Id="1d7f211c-59f0-470c-a510-ca0b132d12f1" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="85515ab1-184e-4c8c-b21f-faa0e09e53ce" name="SonoPeople.DAL">
+          <ArtifactNode Label="SonoPeople.DAL" Category="CodeSchema_Project" Id="(Assembly=../SonoPeople.DAL/SonoPeople.DAL.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=SonoPeople.DAL)" Label="SonoPeople.DAL.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="1d7f211c-59f0-470c-a510-ca0b132d12f1" name="Infrastructure">
+      <references>
+        <reference Id="f7dec806-0c8a-42e5-a730-88a93ef8fd1b" name="SonoPeople.Infrastructure">
+          <ArtifactNode Label="SonoPeople.Infrastructure" Category="CodeSchema_Project" Id="(Assembly=../SonoPeople.Infrastructure/SonoPeople.Infrastructure.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=SonoPeople.Infrastructure)" Label="SonoPeople.Infrastructure.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="28c0e755-0d2e-4ffe-9085-f77a4848b23b" name="Service Layer">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="8a3b0afb-e4d0-4858-9fa4-b6cf60bf45d4" direction="Forward">
+          <layerMoniker Id="da2db1c8-9c96-4e2c-aa7b-fd38d88b4b9c" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="583c9552-e4c3-4b03-9232-d917fbbb69b0" direction="Forward">
+          <layerMoniker Id="e8698bc6-4b75-4c87-80cb-cf9bc8cc9015" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="b9926b7c-ca84-4aa6-89ee-e3749b596955" direction="Forward">
+          <layerMoniker Id="1d7f211c-59f0-470c-a510-ca0b132d12f1" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="3e79be7c-e56e-448d-9d0c-0ba485b69f49" name="SonoPeople.AppService">
+          <ArtifactNode Label="SonoPeople.AppService" Category="CodeSchema_Project" Id="(Assembly=../SonoPeople.AppService/SonoPeople.AppService.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=SonoPeople.AppService)" Label="SonoPeople.AppService.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="67e2a491-9161-41e2-ab5f-7692d8e97548" name="Presentation Layer">
+      <childLayers>
+        <layer Id="a515ec64-f92f-4905-95b1-34916a0256e3" name="UI Layer">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="afad1c31-8298-4328-8df9-1a776d3b6f0d" direction="Forward">
+              <layerMoniker Id="1d6eb1e3-5a3a-45e3-bc16-1bc48782e3f7" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+          <references>
+            <reference Id="a12a8b7c-1b86-4239-8deb-8052e46bc4d9" name="SonoPeople.Ui.Web">
+              <ArtifactNode Label="SonoPeople.Ui.Web" Category="CodeSchema_Project" Id="(Assembly=../SonoPeople.Ui.Web/SonoPeople.Ui.Web.csproj)">
+                <Category Ref="File" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=SonoPeople.Ui.Web)" Label="SonoPeople.Ui.Web.dll" Category="CodeSchema_Assembly">
+                <Category Ref="FileSystem.Category.FileOfType.dll" />
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+        <layer Id="1d6eb1e3-5a3a-45e3-bc16-1bc48782e3f7" name="SonoPeople.WebApi">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="a7b77024-d2e5-4ec3-87b3-f634717fa3f3" direction="Forward">
+              <layerMoniker Id="28c0e755-0d2e-4ffe-9085-f77a4848b23b" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+          <references>
+            <reference Id="58cf69d7-42b4-4bc3-8335-43270f986910" name="SonoPeople.WebApi">
+              <ArtifactNode Label="SonoPeople.WebApi" Category="CodeSchema_Project" Id="(Assembly=../SonoPeople/SonoPeople.WebApi.csproj)">
+                <Category Ref="File" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=SonoPeople)" Label="SonoPeople.dll" Category="CodeSchema_Assembly">
+                <Category Ref="FileSystem.Category.FileOfType.dll" />
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+      </childLayers>
+    </layer>
+  </layers>
+</layerModel>
