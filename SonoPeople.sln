@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SonoPeople.Tests", "SonoPeo
 EndProject
 Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "SonoPeople.Modeling", "SonoPeople.Modeling\SonoPeople.Modeling.modelproj", "{6EF0DB96-E220-4870-B51D-FF0D1DAEC968}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SonoPeople.Core.Ui.Web", "SonoPeople.Core.Ui.Web\SonoPeople.Core.Ui.Web.xproj", "{CFDCCB6C-83A4-4D3B-8F79-DA207E10BF1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{6EF0DB96-E220-4870-B51D-FF0D1DAEC968}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EF0DB96-E220-4870-B51D-FF0D1DAEC968}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EF0DB96-E220-4870-B51D-FF0D1DAEC968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFDCCB6C-83A4-4D3B-8F79-DA207E10BF1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFDCCB6C-83A4-4D3B-8F79-DA207E10BF1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFDCCB6C-83A4-4D3B-8F79-DA207E10BF1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFDCCB6C-83A4-4D3B-8F79-DA207E10BF1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
