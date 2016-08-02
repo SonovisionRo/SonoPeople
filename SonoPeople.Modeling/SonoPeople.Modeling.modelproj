@@ -40,30 +40,4 @@
       <DependentUpon>SonoPeople.layerdiagram</DependentUpon>
     </Validate>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SonoPeople.AppService\SonoPeople.AppService.csproj">
-      <Name>SonoPeople.AppService</Name>
-      <Project>{1d957f69-a0a7-4b81-b11e-2babcacadd38}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\SonoPeople.Core\SonoPeople.Core.csproj">
-      <Name>SonoPeople.Core</Name>
-      <Project>{9e3387e8-ce05-46dd-ae18-32217522f774}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\SonoPeople.DAL\SonoPeople.DAL.csproj">
-      <Name>SonoPeople.DAL</Name>
-      <Project>{e103185c-b5f6-48bc-8281-195ccd4ce275}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\SonoPeople.Infrastructure\SonoPeople.Infrastructure.csproj">
-      <Name>SonoPeople.Infrastructure</Name>
-      <Project>{bbcac6db-722f-4c38-8055-8a9e3436a2b1}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\SonoPeople.Ui.Web\SonoPeople.Ui.Web.csproj">
-      <Name>SonoPeople.Ui.Web</Name>
-      <Project>{acbb7a6f-f901-45b9-a4af-5fd486e03ac8}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\SonoPeople\SonoPeople.WebApi.csproj">
-      <Name>SonoPeople.WebApi</Name>
-      <Project>{087a2978-fff9-46d5-99bb-e8a5a53a5c17}</Project>
-    </ProjectReference>
-  </ItemGroup>
 </Project>
