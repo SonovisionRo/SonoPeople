@@ -1,0 +1,21 @@
+﻿{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "NETStandard.Library": "1.6.0",
+    "SonoPeople.Domain": "1.0.0-*",
+    "SonoPeople.Infrastructure": "1.0.0-*",
+    "StackExchange.Redis": "1.1.604-alpha"
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "type": "platform",
+          "version": "1.0.0"
+        }
+      }
+    }
+  }
+}

@@ -8,6 +8,7 @@
     "NETStandard.Library": "1.6.0",
     "SonoPeople.AppService": "1.0.0-*",
     "SonoPeople.DAL": "1.0.0-*",
+    "SonoPeople.DAL.Redis": "1.0.0-*",
     "SonoPeople.Domain": "1.0.0-*"
   },
 

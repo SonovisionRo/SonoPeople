@@ -9,8 +9,6 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SonoPeople.Ui.Web", "SonoPe
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SonoPeople.Infrastructure", "SonoPeople.Infrastructure\SonoPeople.Infrastructure.xproj", "{BDD04A16-0925-4615-B42E-33C5AC6AF8FE}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SonoPeople.DAL", "SonoPeople.DAL\SonoPeople.DAL.xproj", "{5726E4C5-DE06-4040-A31C-9A16235E2790}"
-EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SonoPeople.Domain", "SonoPeople.Domain\SonoPeople.Domain.xproj", "{56B2CABA-16DA-4F5C-B362-1071BA82DCF5}"
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SonoPeople.CompositionRoot", "SonoPeople.CompositionRoot\SonoPeople.CompositionRoot.xproj", "{66172FF8-1F30-4955-A1DA-C520AF4170C5}"
@@ -20,6 +18,8 @@ EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SonoPeople.WebApi", "SonoPeople.WebApi\SonoPeople.WebApi.xproj", "{EF6B0CB4-F3E3-48C7-B5F8-2FEBD86E7D10}"
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SonoPeople.Tests", "SonoPeople.Tests\SonoPeople.Tests.xproj", "{C695CC86-5D1C-4A63-BC9C-52E18137AE0F}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SonoPeople.DAL.Redis", "SonoPeople.DAL.Redis\SonoPeople.DAL.Redis.xproj", "{C8D03F45-2596-4E0B-9968-8FB82AF4AABE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,10 +39,6 @@ Global
 		{BDD04A16-0925-4615-B42E-33C5AC6AF8FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDD04A16-0925-4615-B42E-33C5AC6AF8FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDD04A16-0925-4615-B42E-33C5AC6AF8FE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5726E4C5-DE06-4040-A31C-9A16235E2790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5726E4C5-DE06-4040-A31C-9A16235E2790}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5726E4C5-DE06-4040-A31C-9A16235E2790}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5726E4C5-DE06-4040-A31C-9A16235E2790}.Release|Any CPU.Build.0 = Release|Any CPU
 		{56B2CABA-16DA-4F5C-B362-1071BA82DCF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{56B2CABA-16DA-4F5C-B362-1071BA82DCF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56B2CABA-16DA-4F5C-B362-1071BA82DCF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -63,6 +59,10 @@ Global
 		{C695CC86-5D1C-4A63-BC9C-52E18137AE0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C695CC86-5D1C-4A63-BC9C-52E18137AE0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C695CC86-5D1C-4A63-BC9C-52E18137AE0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8D03F45-2596-4E0B-9968-8FB82AF4AABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8D03F45-2596-4E0B-9968-8FB82AF4AABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8D03F45-2596-4E0B-9968-8FB82AF4AABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8D03F45-2596-4E0B-9968-8FB82AF4AABE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

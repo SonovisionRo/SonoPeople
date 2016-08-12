@@ -1,6 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.Extensions.DependencyInjection;
-using SonoPeople.DAL.EF;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,10 +16,10 @@ namespace SonoPeople.CompositionRoot
     {
         public static void SetDependencies(IServiceCollection serviceCollection, IConfigurationRoot configuration)
         {
-            serviceCollection.AddEntityFramework()
-                             .AddDbContext<SonoPeopleContext>(options =>
-                                                            options.UseSqlServer(configuration["Data:DefaultConnection:ConnectionString"])
-                                                            );            
+            //serviceCollection.AddEntityFramework()
+            //                 .AddDbContext<SonoPeopleContext>(options =>
+            //                                                options.UseSqlServer(configuration["Data:DefaultConnection:ConnectionString"])
+            //                                                );            
 
             MapperConfiguration mapperConfiguration = new MapperConfiguration(cfg =>
             {
@@ -29,6 +28,9 @@ namespace SonoPeople.CompositionRoot
             serviceCollection.AddSingleton<IMapper>(sp => mapperConfiguration.CreateMapper());
 
             serviceCollection.AddScoped<IUserService, UserService>();
+
+            IProviderLoderStrategy loaderStrategy = PersistenceProviderLoaderFactory.LoadProviders(configuration["Data: PersistenceProvider"]);
+            loaderStrategy.LoadRepositories(serviceCollection);
 
         }
     }

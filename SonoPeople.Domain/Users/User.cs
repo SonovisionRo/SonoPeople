@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SonoPeople.Domain.Users
 {
-    public class User : EntityBase<int>
+    public class User : EntityBase<int>, IAggregateRoot
     {     
 
         public string Email { get; set; }
