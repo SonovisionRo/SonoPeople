@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace SonoPeople.Core.Users
+namespace SonoPeople.Domain.Users
 {
     public class EmailValidSpecification
     {

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SonoPeople.Core.Users
+namespace SonoPeople.Domain.Users
 {
     public class User : EntityBase<int>
     {     

@@ -7,11 +7,18 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using SonoPeople.AppService.AppServices;
+using Microsoft.AspNetCore.Mvc;
+using AutoMapper;
+using SonoPeople.AppService;
+using Microsoft.EntityFrameworkCore.Infrastructure;
+using SonoPeople.CompositionRoot;
 
 namespace SonoPeople.WebApi
 {
     public class Startup
     {
+        private MapperConfiguration _mapperConfiguration { get; set; }
         public Startup(IHostingEnvironment env)
         {
             var builder = new ConfigurationBuilder()
@@ -20,23 +27,27 @@ namespace SonoPeople.WebApi
                 .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
                 .AddEnvironmentVariables();
             Configuration = builder.Build();
+
+            _mapperConfiguration = new MapperConfiguration(cfg =>
+            {
+                cfg.AddProfile(new AutoMapperProfileConfiguration());
+            });
         }
 
         public IConfigurationRoot Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
-        {
-            // Add framework services.
-            services.AddMvc();
+        {           
+            services.AddMvc().AddWebApiConventions();            
+            DependencyMapper.SetDependencies(services, Configuration); 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
-            loggerFactory.AddDebug();
-
+            loggerFactory.AddDebug();           
             app.UseMvc();
         }
     }

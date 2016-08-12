@@ -7,8 +7,8 @@
 
   <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
-    <ProjectGuid>56b2caba-16da-4f5c-b362-1071ba82dcf5</ProjectGuid>
-    <RootNamespace>SonoPeople.Core</RootNamespace>
+    <ProjectGuid>cf699fef-a5f3-4381-8e52-b2942e255085</ProjectGuid>
+    <RootNamespace>PersistenceService</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">.\obj</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">.\bin\</OutputPath>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>

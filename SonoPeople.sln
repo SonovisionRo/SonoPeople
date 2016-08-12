@@ -5,13 +5,13 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "SonoPeople.Modeling", "SonoPeople.Modeling\SonoPeople.Modeling.modelproj", "{6EF0DB96-E220-4870-B51D-FF0D1DAEC968}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SonoPeople.Ui.Web", "SonoPeople.Core.Ui.Web\SonoPeople.Ui.Web.xproj", "{CFDCCB6C-83A4-4D3B-8F79-DA207E10BF1C}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SonoPeople.Ui.Web", "SonoPeople.Ui.Web\SonoPeople.Ui.Web.xproj", "{CFDCCB6C-83A4-4D3B-8F79-DA207E10BF1C}"
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SonoPeople.Infrastructure", "SonoPeople.Infrastructure\SonoPeople.Infrastructure.xproj", "{BDD04A16-0925-4615-B42E-33C5AC6AF8FE}"
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SonoPeople.DAL", "SonoPeople.DAL\SonoPeople.DAL.xproj", "{5726E4C5-DE06-4040-A31C-9A16235E2790}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SonoPeople.Core", "SonoPeople.Core\SonoPeople.Core.xproj", "{56B2CABA-16DA-4F5C-B362-1071BA82DCF5}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SonoPeople.Domain", "SonoPeople.Domain\SonoPeople.Domain.xproj", "{56B2CABA-16DA-4F5C-B362-1071BA82DCF5}"
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SonoPeople.CompositionRoot", "SonoPeople.CompositionRoot\SonoPeople.CompositionRoot.xproj", "{66172FF8-1F30-4955-A1DA-C520AF4170C5}"
 EndProject
